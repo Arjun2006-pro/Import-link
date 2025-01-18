@@ -1,0 +1,98 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem;
+    color: #222;
+}
+
+/* Section Styling */
+section#cyber-cafe-services {
+    padding: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Cards Styling */
+.card {
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 15px 0;
+    padding: 15px 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    color: #0056b3;
+    margin-bottom: 10px;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.card ul li {
+    margin: 8px 0;
+}
+
+.card ul li a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card ul li a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px 0;
+    background: #0056b3;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #ffeb3b;
+    text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .card {
+        padding: 10px 15px;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    .card h3 {
+        font-size: 1.25rem;
+    }
+}
